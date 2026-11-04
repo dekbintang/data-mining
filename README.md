@@ -1,22 +1,36 @@
-# 📊 Data Mining Repository
+# 🎵 Spotify Tracks Data Mining: Profiling & Preprocessing
 
-Repositori ini berisi proyek, eksperimen, dan notebook analisis data mining yang terintegrasi langsung dengan **Google Colab**.
-
----
-
-## 🚀 Daftar Notebook & Buka di Colab
-
-| No | Judul Notebook | Deskripsi | Link Google Colab |
-|:---|:---|:---|:---|
-| 01 | **Starter Data Mining** | Pipeline dasar: EDA, Visualisasi, dan Klasifikasi | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dekbintang/data-mining/blob/main/01_starter_data_mining.ipynb) |
-| 02 | **Spotify Dataset Profiling** | Analisis & profiling dataset Spotify | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dekbintang/data-mining/blob/main/Spotify_Dataset_Profiling2.ipynb) |
+Repositori ini berisi analisis data mining untuk **Spotify Tracks Dataset**, mencakup Exploratory Data Analysis (EDA) dan tahap Preprocessing untuk persiapan pemodelan *Clustering Mood/Vibe*.
 
 ---
 
-## 🛠️ Cara Menggunakan dengan Google Colab
+## 🚀 Jalankan di Google Colab
 
-1. Klik tombol **Open In Colab** pada tabel di atas.
-2. Google Colab akan langsung membuka notebook dari repositori ini.
-3. Anda bisa menjalankan sel-sel kode secara interaktif dan menggunakan akselerasi GPU/TPU gratis jika diperlukan.
-4. Untuk menyimpan hasil eksperimen kembali ke GitHub:
-   - Pilih menu **File** $\rightarrow$ **Save a copy in GitHub...**
+Klik tombol di bawah ini untuk membuka dan menjalankan notebook langsung di Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dekbintang/data-mining/blob/main/Spotify_Dataset_Profiling2.ipynb)
+
+---
+
+## 📋 Cakupan Analisis Notebook
+
+### Bagian I — Exploratory Data Analysis (EDA)
+1. **Import Library & Load Data**
+2. **Struktur Data** (Shape, Tipe Kolom, Pratinjau)
+3. **Statistik Deskriptif**
+4. **Kualitas Data** (Missing Values, Duplikasi, Konsistensi, Outlier)
+5. **Relasi Antar Variabel** (Univariat, Bivariat, Multivariat)
+6. **Ringkasan Temuan EDA**
+
+### Bagian II — Preprocessing untuk Clustering (Mood & Vibe)
+7. **Data Cleaning** (Missing Value, Deduplikasi, Filter Anomali)
+8. **Feature Selection**
+9. **Feature Scaling** (`StandardScaler`)
+10. **Ringkasan Data Siap Modeling**
+
+---
+
+## 💾 Menyimpan Perubahan Kembali ke GitHub dari Colab
+Setelah menjalankan atau mengedit notebook di Google Colab:
+- Pilih menu **File** $\rightarrow$ **Save a copy in GitHub...**
+- Pilih repository `dekbintang/data-mining` dan branch `main`.
