@@ -9,6 +9,7 @@ Repositori ini berisi proyek, eksperimen, dan notebook analisis data mining yang
 | No | Judul Notebook | Deskripsi | Link Google Colab |
 |:---|:---|:---|:---|
 | 01 | **Starter Data Mining** | Pipeline dasar: EDA, Visualisasi, dan Klasifikasi | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dekbintang/data-mining/blob/main/01_starter_data_mining.ipynb) |
+| 02 | **Spotify Dataset Profiling** | Analisis & profiling dataset Spotify | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dekbintang/data-mining/blob/main/Spotify_Dataset_Profiling2.ipynb) |
 
 ---
 
